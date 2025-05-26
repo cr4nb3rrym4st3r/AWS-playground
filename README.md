@@ -12,4 +12,25 @@ step 2.1: provide user access to the aws management console
 step 2.2: i want to create an iam user
 step 2.3: add user to admin group
 
-step 3 
+step 3: create iam role so it can access s3 without session token
+step 3.1: choose trusted entity 'AWS Service'
+step 3.2: use case 'ec2' and ec2 all aws services
+step 3.3: permission policies choose 'AmazonS3FullAccess'
+
+step 4: create ec2
+step 4.1: disable ssh
+step 4.2: continue without a key pair
+step 4.3: iam role - s3 bucket access role 
+step 4.s3: create bucket
+step 4.s3.1: ACls disabled
+step 4.s3.2: block all public access
+
+step 5: fleet manager - configure DHMC
+step 5.1: enable DHMC
+step 5.2: create AWSSystemsManagerDefaultEC2InstanceManagementRole
+
+step 6: session manager - start session - select target instance - launch
+
+step 7: console
+step 7.1: dd
+
