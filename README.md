@@ -32,5 +32,12 @@ step 5.2: create AWSSystemsManagerDefaultEC2InstanceManagementRole
 step 6: session manager - start session - select target instance - launch
 
 step 7: console
-step 7.1: dd
-
+step 7.1: sudo useradd username
+step 7.2: sudo passwd username
+step 7.3: su geno
+step 7.4: pwd and make sure you are in home/username or else you will have no folder permissions
+step 7.5: use cd ~ to access /home/username
+step 7.6: echo 'hi this is a nice' > test.txt
+step 7.7: aws s3 ls (prints buckets)
+step 7.8: aws s3 cp test.txt s3://bucketname   (copy to bucket)
+step 7.9: aws s3 cp s3://bucketname/test.txt test.txt   (down from bucket)
