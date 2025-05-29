@@ -1,7 +1,7 @@
 # AWS-playground
 
 step -1: enable mfa for root user
-step -1.1: go to aws cost manager and set up a budget for cost alerts
+step -1.1: go to aws billing & cost management and set up a budget for cost alerts
 
 Step 0: enable cloudtrail (and allow it to create a bucket for logs)
 <br>step 0.1: enable log file validation
