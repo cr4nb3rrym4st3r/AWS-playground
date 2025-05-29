@@ -13,7 +13,7 @@ Step 1: create an admin security group with 'AdministratorAccess' enabled
 
 Step 2: create an admin account for myself inside 
 <br>step 2.1: provide user access to the aws management console
-<br>step 2.2: i want to create an iam user
+<br>step 2.2: create an iam user
 <br>step 2.3: add user to admin group
 
 step 3: create iam role so it can access s3 without session token
