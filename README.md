@@ -1,12 +1,13 @@
 # AWS-playground
 
 step -1: enable mfa for root user
-step -1.1: go to aws billing & cost management and set up a budget for cost alerts
 
 Step 0: enable cloudtrail (and allow it to create a bucket for logs)
 <br>step 0.1: enable log file validation
 <br>step 0.2: figure out how to enable aws kms
 <br>step 0.3: events - select 'management events' only for free tier
+
+step 0.A: go to aws billing & cost management and set up a budget for cost alerts
 
 Step 1: create an admin security group with 'AdministratorAccess' enabled
 
