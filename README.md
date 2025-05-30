@@ -1,5 +1,7 @@
 # AWS-playground
 
+/* add context, my aws journey or showcasing skills or turn it into a project */
+
 step -1: enable mfa for root user
 
 Step 0: enable cloudtrail (and allow it to create a bucket for logs)
