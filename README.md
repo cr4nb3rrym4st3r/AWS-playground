@@ -1,6 +1,6 @@
 # AWS-playground
 
-/* add context, my aws journey or showcasing skills or turn it into a project */ 
+/* add context, my aws journey or showcasing skills or turn it into a project */   
 
 step -1: enable mfa for root user
 
